@@ -1,0 +1,57 @@
+textarea {
+    min-height: 400px;
+}
+
+.email-div-class{
+    transition: box-shadow .3s;
+}
+.email-div-class:hover{
+    box-shadow: 0 0 5px black;
+}
+
+.email-div-class p:hover{
+    transition: None;
+    box-shadow: None;
+}
+
+div p{
+    margin: 0;
+    padding: 0;
+}
+
+#reply-button, #archive-button{
+    float:right;
+    margin: 5px;
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 7px;
+}
+
+#reply-button:hover {
+    background-color: red;
+    color: white;
+}
+
+#archive-button:hover {
+    background-color: red;
+    color: white;
+}
+
+
+#button-div-each-email {
+    overflow: hidden;
+}
+
+#each-email-sender, #each-email-recipient, #each-email-subject, #each-email-timestamp {
+    display: inline;
+    margin-left: 5px;
+}
+
+#header {
+    border-bottom: 1px solid black;
+}
+
+#each-email-body {
+    white-space: pre-line;
+}
